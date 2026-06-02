@@ -1,13 +1,12 @@
 # LearnMachine
 This project showcases the use of Machine Learning (ML) for real-time object detection and classification of Arduino and ESP32 boards.
 
-
 # Machine Learning for Object Detection of Arduino & ESP32 Using YOLOv8
 
 ## Description
 This project demonstrates the use of **Machine Learning (ML)** for **real-time object detection and classification** of **Arduino** and **ESP32** boards. Using a combination of **image annotation**, **data augmentation**, and training a **YOLOv8 model**, this project enables high-accuracy detection of these devices. 
 
-The main components of the project include:
+The main components of the project (ML4.py) include : 
 - **Data Annotation**: Annotating images of Arduino and ESP32 boards using the **LabelImg** tool.
 - **Data Augmentation**: Enhancing the dataset with transformations like rotation, flipping, and scaling to improve the model’s robustness.
 - **YOLOv8 Model**: Training a **YOLOv8** object detection model to detect and classify Arduino and ESP32 boards in real-time.
